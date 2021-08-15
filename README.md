@@ -1,2 +1,2 @@
 # DevOpsWithDocker
- Submissions for DevOps With Docker course
+ Exercises for DevOps Wirh Docker course
