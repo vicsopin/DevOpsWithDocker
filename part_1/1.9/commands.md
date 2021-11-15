@@ -1,3 +1,4 @@
+```console
 ~/Documents/GitHub/DevOpsWithDocker/part_1/1.9$ touch text.log
 ~/Documents/GitHub/DevOpsWithDocker/part_1/1.9$ docker run -d -v "$(pwd)/text.log://usr/src/app/text.log" devopsdockeruh/simple-web-service:alpine
 Unable to find image 'devopsdockeruh/simple-web-service:alpine' locally
@@ -23,5 +24,5 @@ Secret message is: 'You can find the source code here: https://github.com/docker
 2021-11-07 19:34:49 +0000 UTC
 Secret message is: 'You can find the source code here: https://github.com/docker-hy'
 2021-11-07 19:34:51 +0000 UTC
-^C
 ~/Documents/GitHub/DevOpsWithDocker/part_1/1.9$ 
+```
