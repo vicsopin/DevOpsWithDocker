@@ -1,3 +1,4 @@
+```console
 ~/Documents/GitHub/DevOpsWithDocker/part_1/1.10$ docker run -p 8080:8080 web-server
 [GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
 
@@ -16,4 +17,4 @@
 
 Browser localhost:8080 output:
 {"message":"You connected to the following path: /","path":"/"}
-
+```
