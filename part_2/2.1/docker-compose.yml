@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  exercise_2.1:
+    image: devopsdockeruh/simple-web-service:alpine
+    volumes:
+      - ./logs.txt:/usr/src/app/logs.txt
+    container_name: exercise_2.1
