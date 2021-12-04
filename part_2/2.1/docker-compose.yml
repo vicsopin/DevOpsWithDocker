@@ -4,5 +4,5 @@ services:
   exercise_2.1:
     image: devopsdockeruh/simple-web-service:alpine
     volumes:
-      - ./logs.txt:/usr/src/app/logs.txt
+      - ./text.log:/usr/src/app/text.log
     container_name: exercise_2.1
